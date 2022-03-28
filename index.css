@@ -245,9 +245,8 @@ button {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+.about-section button:hover {
   color: white;
-  box-shadow: none;
 }
 .about-section button:hover:before, .about-section button:focus:before, .about-section button:active:before {
   -webkit-transform: scaleX(1);
