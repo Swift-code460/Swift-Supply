@@ -218,11 +218,13 @@ button {
   font-weight: bolder;
   text-align: center;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6), 3px 3px 5px rgba(0, 0, 0, 0.6);
-  transition-property: box-shadow;
 }
 .about-section button {
   background-color: #c400ff;
   box-shadow: inset 2px 4px 2px rgba(0, 0, 0, 0.6), 4px 2px 2px rgba(0, 0, 0, 0.6);
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
 }
 .about-section button:before {
   content: "";
@@ -247,10 +249,7 @@ button {
 }
 .about-section button:hover {
   color: white;
-}
-.about-section button:hover:before, .about-section button:focus:before, .about-section button:active:before {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+  background: #2098D1;
 }
 /*hover effect rules*/
 .underline-link {
