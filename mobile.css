@@ -1,0 +1,90 @@
+/*Responsive layout */
+  .container {
+    padding: 32px 32px 48px 32px;
+  }
+  .Header {
+    flex-direction: column;
+  }
+  .nav-link {
+   gap: 0;
+  }
+  .nav-link a  {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .content {
+    flex-direction: column-reverse;
+    margin: 16px 0 16px 0;
+    gap: 8px;
+  }
+  .content img, .img, .goods, .testimonial{
+    width: 100%;
+    height: auto;
+  }
+  .goods-container {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 24px;
+  }
+  .Learn-more {
+    margin: 8px;
+  }
+  a, p {
+    font-size: 16px;
+  }
+  .info-title {
+    font-size: 24px;
+  }
+  .goods h2 {
+    font-size: 16px;
+    margin: 16px;
+  }
+  .goods p {
+    line-height: 24px;
+  }
+  .about-section {
+    margin: 16px 0 16px 0;
+    padding: 16px 0 16px 0;
+    
+  }
+  .about-section h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .about-section p {
+    line-height: 32px;
+  }
+  .quotes {
+    padding: 48px 32px 32px 32px;
+  }
+  .quotes h1 {
+    font-size: 24px;
+    margin: 16px;
+  }
+  .Request-now {
+    margin: 32px;
+    height: 250px;
+    gap: 8px;
+  }
+  .Request-now .content {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .Request-now h1 {
+    font-size: 24px;
+  }
+  .footer-links {
+    gap: 32px;
+  }
+  .left-links, .right-links {
+    align-items: flex-start;
+  }
+  .footer-links a:link, .footer-links a:visited, .footer-links a:hover {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .footer p {
+    font-size: 16px;
+  }
